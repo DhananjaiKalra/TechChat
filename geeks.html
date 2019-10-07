@@ -1,0 +1,882 @@
+<html>
+
+<head>
+    <title>Tech chat</title>
+    <link rel="icon" type="image/gif" href=".1.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="animate.css" rel="stylesheet">
+</head>
+<script>
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }</script>
+<style>
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+
+    ::-webkit-scrollbar-thumb {
+        background: #0f9d58;
+        border-radius: 10px;
+    }
+
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0f9d58;
+    }
+
+    body {
+        background-image: url(12.jpg);
+        overflow-x: hidden;
+    }
+
+    #dd {
+        background-image: url(12.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
+
+    .navbar {
+        background: white;
+        border: 5px solid #0f9d58;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+        border-top: none;
+        position: fixed;
+        width: 100%;
+    }
+
+    #ww {
+        float: right;
+        width: "10%";
+        border: 2px solid #0f9d58;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        padding-left: 5px;
+    }
+
+
+
+    input[type="name"]:focus,
+    input[type="search"]:focus {
+        border: 2px solid #0f9d58;
+        border-radius: 25px;
+        transition: 1s;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: #0f9d58;
+    }
+
+    #w {
+        float: right;
+    }
+
+    #q {
+        background: transparent;
+        border: none;
+        float: right;
+    }
+
+
+    .navbar ul li a {
+        color: #163a5c;
+        font-family: 'Love Ya Like A Sister', cursive;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        Width: 100%;
+    }
+
+    .navbar-btn {
+        background-image: url(4.png);
+        background-size: auto;
+
+    }
+
+
+
+
+    .navbar ol li a:hover {
+        background: green;
+    }
+
+    .navbar ul li a:hover {
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: 0.5s;
+        background: transparent;
+
+    }
+
+    table {
+        float: left;
+        margin: 5px;
+
+    }
+
+    table tr td:hover {
+        background: rgba(0, 0, 0, 0.4);
+        transition: 1s;
+        transform-origin: left;
+        border: 5px solid #dddddd;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0px;
+        border-top: none;
+        color: #dddddd;
+        font-weight: bold;
+    }
+
+    table tr td {
+        padding: 10px;
+        color: #dddddd;
+        background: transparent;
+        border: 5px solid #0f9d58;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0px;
+        border-top: none;
+
+    }
+
+    #navbar-toggle {
+        float: left;
+    }
+
+    button a {
+        color: white;
+        background: #c3c3c3;
+        border: 5px solid #c3c3c3;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0px;
+        border-top: none;
+        transition: 0.5;
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    button a:hover {
+        border: 5px solid #0f9d58;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0px;
+        border-top: none;
+        transition: 1s;
+        text-decoration: none;
+        background: #929191;
+        color: white;
+    }
+
+    #a {
+        float: left;
+    }
+
+    #b {
+        background: white;
+    }
+
+    @media screen and (max-width: 770px) {
+        #ab {
+            left: 15px;
+            background: rgba(0, 0, 0, 0.4);
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 3px;
+            border: 2px solid #0f9d58;
+
+            text-align: left;
+            min-width: 95%;
+
+        }
+    }
+
+    #ab {
+        left: 15px;
+        background: rgba(0, 0, 0, 0.4);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 3px;
+        border: 2px solid #0f9d58;
+
+        text-align: left;
+
+        width: 50%;
+
+    }
+
+    #bb {
+        font-size: 16px;
+
+    }
+
+    #c {
+        background: #0f9d58;
+        border-radius: 10px;
+        color: white;
+        border: none;
+
+    }
+
+    #c:hover {
+        background: #e58003;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+        transition: 1s;
+    }
+
+    div a {
+        color: #e58003;
+
+    }
+
+    div a:hover {
+        color: #e58003;
+        text-decoration: none;
+
+    }
+
+    div p {
+        color: #ffffff;
+    }
+
+    #qq {
+        padding-top: 50px;
+    }
+
+    #pp {
+        border: 2px solid #0f9d58;
+        padding: 5px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    #pp:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.6);
+        transition: 1s;
+    }
+
+    .pager li:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.6);
+        transition: 1s;
+    }
+
+    #o {
+        float: right;
+    }
+
+    #oo {
+        float: right;
+        padding-top: 50px;
+
+    }
+
+    #footer {
+        background: white;
+        border: 5px solid #0f9d58;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+        border-bottom: none;
+
+        width: 100%;
+    }
+
+    span {
+        background: white;
+    }
+
+
+
+    span table th {
+        background: white;
+    }
+
+    span table tr {
+        border: none;
+        background: white;
+    }
+
+    span table td {
+        border: none;
+        color: black;
+        background: white;
+    }
+
+    span table td:hover {
+        border: none;
+        background: white;
+        color: #0f9d58;
+        cursor: default;
+    }
+
+    #aq {
+        background: white;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-light bg-light ">
+        <div id="b">
+            <br> <img src=".1.jpg" align="left" height="100px" width="100px">
+            <br>
+            <form>
+                <button class="wow fadeInDown" id="q" type="submit"><img src="2.1.png" height="30px"
+                        width="30px"></button>
+                <input class="wow fadeInDown" id="ww" type="search" placeholder="  search"></span></form>
+            <br>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <img src="4.png" height="20px" width="20px">
+                </button>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav nav-ul">
+
+                        <li class="dropdown">
+
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Alogo <span
+                                    class="caret"></span></a>
+                            <ol class="dropdown-menu">
+
+                                <li><a href="#">Analysis of Algorithms</a></li>
+                                <li><a href="#">Abc</a></li>
+                                <li><a href="#">All algo</a></li>
+                            </ol>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Languages <span
+                                    class="caret"></span></a>
+                            <ol class="dropdown-menu">
+
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">C++</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">C#</a></li>
+                                <li><a href="#">PHP</a></li>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">SQL</a></li>
+                            </ol>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Student <span
+                                    class="caret"></span></a>
+                            <ol class="dropdown-menu">
+
+                                <li><a href="#">A</a></li>
+                                <li><a href="#">B</a></li>
+                                <li><a href="#">X</a></li>
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">D</a></li>
+                                <li><a href="#">E</a></li>
+                                <li><a href="#">F</a></li>
+                                <li><a href="#">G</a></li>
+                                <li><a href="#">H</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                        <li><a href="#">Page 4</a></li>
+                        <li><a href="#">Page 5</a></li>
+                        <li><a href="#">Page 6</a></li>
+                        <li><a href="#">Page 7</a></li>
+                        <li><a href="#">Page 8</a></li>
+                        <li><a href="#">Page 9</a></li>
+                        <li><a href="#">Page 10</a></li>
+                        <li><a href="#">Page 11</a></li>
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </nav>
+
+    <br><br><br><br><br><br><br>
+
+
+    <div id="a" class="collapse navbar-collapse">
+        <div class="wow fadeInLeft">
+            <table>
+                <tr>
+                    <td>Courses@GeeksofGeeks</td>
+                </tr>
+
+                <tr>
+                    <td>Internship@GeeksofGeeks</td>
+                </tr>
+                <tr>
+                    <td>c Language</td>
+                </tr>
+                <tr>
+                    <td>C++ Language</td>
+                </tr>
+                <tr>
+                    <td>Java Language</td>
+                </tr>
+                <tr>
+                    <td>Python Language</td>
+                </tr>
+                <tr>
+                    <td>Swift Language</td>
+                </tr>
+                <tr>
+                    <td>Pascal Language</td>
+                </tr>
+                <tr>
+                    <td>APL Language</td>
+                </tr>
+                <tr>
+                    <td>Basic Language</td>
+                </tr>
+                <tr>
+                    <td>Caml Language</td>
+                </tr>
+                <tr>
+                    <td>Courses@GeeksofGeeks</td>
+                </tr>
+
+                <tr>
+                    <td>Internship@GeeksofGeeks</td>
+                </tr>
+                <tr>
+                    <td>c Language</td>
+                </tr>
+                <tr>
+                    <td>C++ Language</td>
+                </tr>
+                <tr>
+                    <td>Java Language</td>
+                </tr>
+                <tr>
+                    <td>Python Language</td>
+                </tr>
+                <tr>
+                    <td>Swift Language</td>
+                </tr>
+                <tr>
+                    <td>Pascal Language</td>
+                </tr>
+                <tr>
+                    <td>APL Language</td>
+                </tr>
+                <tr>
+                    <td>Basic Language</td>
+                </tr>
+                <tr>
+                    <td>Caml Language</td>
+                </tr>
+                <tr>
+                    <td>Courses@GeeksofGeeks</td>
+                </tr>
+
+                <tr>
+                    <td>Internship@GeeksofGeeks</td>
+                </tr>
+                <tr>
+                    <td>c Language</td>
+                </tr>
+                <tr>
+                    <td>C++ Language</td>
+                </tr>
+                <tr>
+                    <td>Java Language</td>
+                </tr>
+                <tr>
+                    <td>Python Language</td>
+                </tr>
+                <tr>
+                    <td>Swift Language</td>
+                </tr>
+                <tr>
+                    <td>Pascal Language</td>
+                </tr>
+                <tr>
+                    <td>APL Language</td>
+                </tr>
+                <tr>
+                    <td>Basic Language</td>
+                </tr>
+                <tr>
+                    <td>Caml Language</td>
+                </tr>
+                <tr>
+                    <td>Courses@GeeksofGeeks</td>
+                </tr>
+
+                <tr>
+                    <td>Internship@GeeksofGeeks</td>
+                </tr>
+                <tr>
+                    <td>c Language</td>
+                </tr>
+                <tr>
+                    <td>C++ Language</td>
+                </tr>
+                <tr>
+                    <td>Java Language</td>
+                </tr>
+                <tr>
+                    <td>Python Language</td>
+                </tr>
+                <tr>
+                    <td>Swift Language</td>
+                </tr>
+                <tr>
+                    <td>Pascal Language</td>
+                </tr>
+                <tr>
+                    <td>APL Language</td>
+                </tr>
+                <tr>
+                    <td>Basic Language</td>
+                </tr>
+                <tr>
+                    <td>Caml Language</td>
+                </tr>
+
+            </table>
+        </div>
+        <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
+        <img id="qq" src="5.png" align="left" width="300px"><br><br><br>
+        <table id="qq">
+            <tr>
+                <td>Courses@GeeksofGeeks</td>
+            </tr>
+
+            <tr>
+                <td>Internship@GeeksofGeeks</td>
+            </tr>
+            <tr>
+                <td>c Language</td>
+            </tr>
+            <tr>
+                <td>C++ Language</td>
+            </tr>
+            <tr>
+                <td>Java Language</td>
+            </tr>
+            <tr>
+                <td>Python Language</td>
+            </tr>
+            <tr>
+                <td>Courses@GeeksofGeeks</td>
+            </tr>
+
+            <tr>
+                <td>Internship@GeeksofGeeks</td>
+            </tr>
+            <tr>
+                <td>c Language</td>
+            </tr>
+            <tr>
+                <td>C++ Language</td>
+            </tr>
+            <tr>
+                <td>Java Language</td>
+            </tr>
+            <tr>
+                <td>Python Language</td>
+            </tr>
+        </table>
+
+    </div>
+    </div>
+    <div id="o" class="collapse navbar-collapse">
+        <img id="o" src="7.png" align="right" width="300px"><br>
+        <img id="o" src="22.jpg" align="right" width="300px"><br>
+        <img id="o" src="9.png" align="right" width="300px">
+        <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br>
+        <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br>
+        <table id="oo">
+            <tr>
+                <td>Courses@GeeksofGeeks</td>
+            </tr>
+
+            <tr>
+                <td>Internship@GeeksofGeeks</td>
+            </tr>
+            <tr>
+                <td>c Language</td>
+            </tr>
+            <tr>
+                <td>C++ Language</td>
+            </tr>
+            <tr>
+                <td>Java Language</td>
+            </tr>
+            <tr>
+                <td>Python Language</td>
+            </tr>
+            <tr>
+                <td>Courses@GeeksofGeeks</td>
+            </tr>
+
+            <tr>
+                <td>Internship@GeeksofGeeks</td>
+            </tr>
+            <tr>
+                <td>c Language</td>
+            </tr>
+            <tr>
+                <td>C++ Language</td>
+            </tr>
+            <tr>
+                <td>Java Language</td>
+            </tr>
+            <tr>
+                <td>Python Language</td>
+            </tr>
+        </table>
+        <br><br>
+        <img id="oo" src="13.jpg" width="300px">
+        <br><br><br>
+        <img id="oo" src="14.jpg" width="300px">
+    </div>
+    <br>
+    <center>
+
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        <br><br>
+
+        <div id="ab" class="wow FadeInDown">
+            <a href="#">
+                <h3>Why learning C Programming is a must?</h3>
+            </a><br>
+            <p id="bb">C is a procedural programming language.
+                It was initially developed by Dennis Ritchie between 1969 and 1973.
+                It was mainly developed as a system programming…</p><br>
+            <button id="c">Article</button>
+            <button id="c">C</button>
+            <button id="c">GBlog</button>
+            <button id="c">TechTips</button><br><br>
+        </div>
+        </div>
+        <br><br>
+        <ul class="pager">
+            <li><a href="#">Previous</a></li>
+
+            <span class="pagination">
+                <span id="pp"><a href="geeks.html">1</a></span>
+                <span id="pp"><a href="geeks.html">2</a></span>
+                <span id="pp"><a href="geeks.html">3</a></span>
+                <span id="pp"><a href="geeks.html">4</a></span>
+                <span id="pp"><a href="geeks.html">5</a></span>
+                <span id="pp"><a href="geeks.html">6</a></span>
+                <span id="pp"><a href="geeks.html">7</a></span>
+                <span id="pp"><a href="geeks.html">8</a></span>
+                <span id="pp"><a href="geeks.html">9</a></span>
+            </span>
+            <li><a href="#">Next</a></li>
+        </ul>
+        <footer id="footer"><br><br>
+            <img src=".1.jpg" width="300px">
+            <h3>Connecting Geeks</h3>
+            <br><br>
+            <p>
+                feedback@Techchat.org<p><br>
+                        <p> copyright &copy; 2019. All rights reserved | Design by
+                            <a href="#">RAJAT TAK</a> |
+                        </p>
+<br><br><br>
+</body>
+<script src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>
